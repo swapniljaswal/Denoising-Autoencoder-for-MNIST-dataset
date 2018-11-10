@@ -29,7 +29,7 @@ To train the model, use
 
 python autoencoder_train.py
 
-If you want to use the pretrained model, uncomment the 'load previously trained model' section and comment the 'training params', 'input layer', 'encoding', 'decoding', 'output layer', 'model'and 'train' sections.
+If you want to use the pretrained model, uncomment the 'load previously trained model' section and comment the 'training params', 'input layer', 'encoding', 'decoding', 'output layer', 'model' and 'train' sections.
 
 For prediction using the trained model, use
 
