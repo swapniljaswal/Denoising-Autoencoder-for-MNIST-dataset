@@ -25,10 +25,11 @@ x_test = preprocess_data(x_test)
 x_train_noisy = add_noise(x_train)
 x_test_noisy  = add_noise(x_test)
 
+'''
 #load previously trained model
 autoencoder = models.load_model('./model/autoencoder.h5')
-
 '''
+
 #training params
 epochs = 200
 batch_size = 128
@@ -64,7 +65,6 @@ autoencoder.summary()
 #train
 autoencoder.fit(x_train_noisy, x_train, epochs = epochs, batch_size = batch_size, validation_split = val_split, verbose = 1)
 autoencoder.save('./model/autoencoder.h5')
-'''
 
 #test
 evaluation = autoencoder.evaluate(x_test_noisy, x_test)
