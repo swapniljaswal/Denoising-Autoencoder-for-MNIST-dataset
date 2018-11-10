@@ -37,7 +37,10 @@ python autoencoder_predict.py
 
 ## Results
 
-Achieved a test accuracy of 81%. Check Figure.png file for prediction results.
+Achieved a test accuracy of 81%.
+
+Prediction results on test images from MNIST
+![Screenshot](Figure.png)
 
 ## Built With
 
