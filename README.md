@@ -39,7 +39,7 @@ python autoencoder_predict.py
 
 Achieved a test accuracy of 81%.
 
-Prediction results on test images from MNIST
+Prediction results on test images from MNIST. Row 1 has noisy images. Row 2 are the denoised images given by the autoencoder.
 ![Screenshot](Figure.png)
 
 ## Built With
