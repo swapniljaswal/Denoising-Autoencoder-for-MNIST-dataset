@@ -35,6 +35,10 @@ For prediction using the trained model, use
 
 python autoencoder_predict.py
 
+## Results
+
+Achieved a test accuracy of 81%. Check Figure.png file for prediction results.
+
 ## Built With
 
 * Python     [https://www.python.org]
