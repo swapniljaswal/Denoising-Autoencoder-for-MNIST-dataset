@@ -13,7 +13,9 @@ The project requires you to have python3, tensorflow, numpy, matplotlib(for visu
 Download Python from the Python website
 
 pip install tensorflow
+
 or, if you have a gpu
+
 pip install tensorflow-gpu
 
 pip install numpy
